@@ -1,0 +1,214 @@
+/*  first one-zomato card  */
+
+.main-1st{
+    width:500px;
+    height: 535px;
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.food-img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.tags{
+    position: relative;
+}
+
+.first-tag{
+position: absolute;
+top: 0 ;
+left: 15px;
+background-color: darkgrey;
+padding: 2px 9px;
+color: white;
+border-radius: 4px;
+font-size: small;
+opacity: 0.7;
+}
+.second-tag{
+    position: absolute;
+    bottom:10px;
+    background-color: blue;
+    color: white;
+    padding: 0 7px 2px;
+
+}
+.third-tag{
+position: absolute;
+bottom:8px;
+right: 20px;
+background-color: white ;
+opacity: 0.8;
+color: black;
+padding: 2px 5px 5px;
+border-radius: 5px;
+}
+.name{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.desc{
+    color: gray;
+    font-size: larger;
+    margin-top: 12px;
+}
+.safety-logo{
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 22px;
+    margin-left: 5px ;
+    border-radius: 3px;  
+    width: 70px;
+    height: 30px;
+   } 
+
+.footer{
+    border-top: 2px solid lightgray;
+    box-sizing: border-box;
+    padding-top: 12px;
+    color: gray;
+    font-size: medium;
+    padding-left: 90px;
+    padding-right: 30px;
+}
+
+
+
+/* second-one explore-card */
+
+
+.main-2nd{
+   margin: 60px auto;
+   position: relative;
+   width: 650px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.background-img{
+    border-radius: 15px;
+    
+    
+}
+
+.inside{
+    position: absolute;
+    bottom: 55px;
+    color: white;
+    text-align: center;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+/* third one-zomato search */
+.main-3rd{
+    width: 700px;
+    margin: 50px auto;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.foodbackground-img{
+    filter: brightness(50%);
+}
+
+.inside-content{
+    width: 700px;
+    position: absolute;
+    top:0px;
+    text-align: center;
+    color: white;
+  
+}
+
+.heading-third{
+margin-bottom: -8px;
+font-size: 40px;
+}
+
+.description{
+    font-size: larger;
+}
+
+.text{
+    width: 400px;
+    height: 25px;
+    border-radius: 2px;
+    border:none;
+    padding-left: 30px;
+}
+
+
+
+
+/* fourth one-profile */
+
+
+.main-4th{
+width: 500px;
+height: 350px;
+border: 2px solid lightgrey;
+margin: 30px auto;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+position: relative;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ .profile-background{
+    width: 500px;
+    height: 150px;
+    position: relative;
+    border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.profilebackground-img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.profile-pic{
+
+   position: absolute;
+   bottom: -80px;
+   text-align: center;
+   width: 500px;
+    
+} 
+.man-img{
+  
+border-radius: 50%;
+border: 4px solid white;
+}
+
+
+.asish-about{
+position: absolute;
+text-align: center;
+width: 500px;
+bottom: 0px;
+box-sizing: border-box;
+}
+
+.myname{
+    margin: -15px 0;
+}
+.myabout{
+   
+    font-size: larger;
+    color: gray;
+    
+}
